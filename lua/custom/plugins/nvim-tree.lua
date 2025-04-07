@@ -7,7 +7,15 @@ return {
   },
   config = function()
     require('nvim-tree').setup {
-      disable_netrw = false,
+      disable_netrw = true,
+      hijack_netrw = true,
+      view = {
+        mappings = {
+          list = {
+            { key = "v", cb = tree_cb "vsplit" },
+          }
+        }
+      }
     }
     vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>', { silent = true })
   end,
