@@ -3,6 +3,4 @@
 --
 -- See the kickstart.nvim README for more information
 -- Using Packer:
-return { -- Using Packer:
-  { 'Mofiqul/dracula.nvim' },
-}
+return {}
