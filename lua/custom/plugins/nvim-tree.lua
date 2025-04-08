@@ -25,7 +25,6 @@ return {
       on_attach = my_on_attach,
       disable_netrw = true,
       hijack_netrw = true,
-      auto_close = true,
     }
     vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>', { silent = true })
   end,
