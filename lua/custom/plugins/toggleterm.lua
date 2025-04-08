@@ -24,6 +24,9 @@ return {
           background = 'Normal',
         },
       },
+      keys = {
+        { '<leader>tg', '<cmd>2TermExec cmd="lazygit"<cr>', desc = 'Toggle Lazygit Term' },
+      },
     }
   end,
 }
