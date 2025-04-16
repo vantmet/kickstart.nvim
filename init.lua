@@ -164,6 +164,10 @@ vim.opt.scrolloff = 10
 -- See `:help 'confirm'`
 vim.opt.confirm = true
 
+-- Turn on spelling
+vim.opt.spell = true
+vim.opt.spelllang = 'en_gb'
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
